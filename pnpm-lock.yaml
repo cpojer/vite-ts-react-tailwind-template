@@ -20,6 +20,7 @@ specifiers:
   npm-run-all: ^4.1.5
   postcss: ^8.4.16
   prettier: ^2.7.1
+  prettier-plugin-tailwindcss: ^0.1.13
   react: ^18.2.0
   react-dom: ^18.2.0
   tailwindcss: ^3.1.8
@@ -52,6 +53,7 @@ devDependencies:
   npm-run-all: 4.1.5
   postcss: 8.4.16
   prettier: 2.7.1
+  prettier-plugin-tailwindcss: 0.1.13_prettier@2.7.1
   tailwindcss: 3.1.8_57znarxsqwmnneadci5z5fd5gu
   ts-node: 10.9.1_g6ss4ygbrpkylebblsu6n4zahq
   typescript: 4.8.4
@@ -2847,6 +2849,15 @@ packages:
   /prelude-ls/1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
+    dev: true
+
+  /prettier-plugin-tailwindcss/0.1.13_prettier@2.7.1:
+    resolution: {integrity: sha512-/EKQURUrxLu66CMUg4+1LwGdxnz8of7IDvrSLqEtDqhLH61SAlNNUSr90UTvZaemujgl3OH/VHg+fyGltrNixw==}
+    engines: {node: '>=12.17.0'}
+    peerDependencies:
+      prettier: '>=2.2.0'
+    dependencies:
+      prettier: 2.7.1
     dev: true
 
   /prettier/2.7.1:
