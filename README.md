@@ -2,6 +2,8 @@
 
 _Minimal, sensible defaults, fast._
 
+Read [the blog post about this template](https://cpojer.net/posts/fastest-frontend-tooling-in-2022).
+
 ## Technologies
 
 - [Vite](https://vitejs.dev/)
