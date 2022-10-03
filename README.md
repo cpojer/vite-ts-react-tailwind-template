@@ -34,13 +34,13 @@ _Note: You can install `pnpm` via `homebrew` on macOS: `brew install pnpm`._
 
 Create a `script.ts` file, run `chmod x script.ts` and execute it via `./script.ts`.
 
-```script.ts
+```
 #!/usr/bin/env node --no-warnings --experimental-specifier-resolution=node --loader ts-node/esm
 
 console.log('Your code goes here.');
 ```
 
-And for restarting instantly when files change:
+Use this to restart your scripts instantly when a file changes:
 
 ```
 #!/usr/bin/env NODE_ENV=development node_modules/.bin/nodemon -q -I --exec node --no-warnings --experimental-specifier-resolution=node --loader ts-node/esm
