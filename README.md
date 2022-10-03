@@ -1,6 +1,6 @@
 # Starter Kit for Vite, React, TypeScript, Tailwind and Node.js ESM
 
-*Minimal, sensible defaults, fast.*
+_Minimal, sensible defaults, fast._
 
 ## Technologies
 
@@ -8,7 +8,7 @@
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org)
 - [Tailwind](https://tailwindcss.com/)
-- [pnpm](https://pnpm.io/ja/) (*Optional*)
+- [pnpm](https://pnpm.io/ja/) (_Optional_)
 
 ![screenshot of `App.tsx`](./screenshot.png)
 
