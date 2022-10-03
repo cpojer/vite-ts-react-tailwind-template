@@ -1,6 +1,6 @@
 # Minimal Starter Template for Vite with React, TypeScript and Tailwind
 
-Minimal, sensible defaults, fast.
+*Minimal, sensible defaults, fast.*
 
 ## Technologies
 
