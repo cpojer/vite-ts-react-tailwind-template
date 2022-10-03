@@ -8,14 +8,14 @@
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org)
 - [Tailwind](https://tailwindcss.com/)
-- [pnpm](https://pnpm.io/ja/)
+- [pnpm](https://pnpm.io/ja/) (*Optional*)
 
 ![screenshot of `App.tsx`](./screenshot.png)
 
 ## Setup
 
 - Press the "Use this template" on the top of this repository's GitHub page.
-- Run `pnpm install`.
+- Run `pnpm install` (or `npm install` if you don't use `npm`).
 - `pnpm dev` for development.
 - Use `pnpm test` to run tests.
 - `pnpm build` for production builds.
