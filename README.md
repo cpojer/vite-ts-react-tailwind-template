@@ -1,4 +1,4 @@
-# Minimal Starter Template for Vite with React, TypeScript and Tailwind
+# Starter Kit for Vite, React, TypeScript, Tailwind and Node.js ESM
 
 *Minimal, sensible defaults, fast.*
 
