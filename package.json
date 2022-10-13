@@ -8,8 +8,8 @@
   },
   "type": "module",
   "engines": {
-    "node": ">=18.7.0",
-    "pnpm": ">=7.9.1"
+    "node": ">=16.17.0",
+    "pnpm": ">=7.1.0"
   },
   "dependencies": {
     "react": "^18.2.0",
