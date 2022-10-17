@@ -45,7 +45,7 @@ console.log('Your code goes here.');
 Use this to restart your scripts instantly when a file changes:
 
 ```
-#!/usr/bin/env NODE_ENV=development node_modules/.bin/nodemon -q -I --exec node --no-warnings --experimental-specifier-resolution=node --loader ts-node/esm
+#!/usr/bin/env NODE_ENV=development node --watch --no-warnings --experimental-specifier-resolution=node --loader ts-node/esm
 
 console.log('This processes instantly restarts when a file changes.');
 ```
