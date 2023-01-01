@@ -71,6 +71,7 @@ module.exports = {
     'object-shorthand': 2,
     'prefer-arrow-callback': 2,
     'prefer-const': 2,
+    'react-hooks/exhaustive-deps': 2,
     'react/jsx-sort-props': 2,
     'react/prop-types': 0,
     'react/react-in-jsx-scope': 0,
