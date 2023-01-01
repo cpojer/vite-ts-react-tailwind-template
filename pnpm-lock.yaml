@@ -15,6 +15,7 @@ specifiers:
   eslint-import-resolver-typescript: ^3.5.1
   eslint-plugin-import: ^2.26.0
   eslint-plugin-react: ^7.31.8
+  eslint-plugin-react-hooks: ^4.6.0
   eslint-plugin-typescript-sort-keys: ^2.1.0
   npm-run-all: ^4.1.5
   postcss: ^8.4.16
@@ -47,6 +48,7 @@ devDependencies:
   eslint-import-resolver-typescript: 3.5.1_dg2pe6kqkrddxbf2funb723kue
   eslint-plugin-import: 2.26.0_3vub7fqunrjizhghsam4lcr2pi
   eslint-plugin-react: 7.31.8_eslint@8.24.0
+  eslint-plugin-react-hooks: 4.6.0_eslint@8.24.0
   eslint-plugin-typescript-sort-keys: 2.1.0_c7qepppml3d4ahu5cnfwqe6ltq
   npm-run-all: 4.1.5
   postcss: 8.4.16
@@ -1743,6 +1745,15 @@ packages:
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
       - supports-color
+    dev: true
+
+  /eslint-plugin-react-hooks/4.6.0_eslint@8.24.0:
+    resolution: {integrity: sha512-oFc7Itz9Qxh2x4gNHStv3BqJq54ExXmfC+a1NjAta66IAN87Wu0R/QArgIS9qKzX3dXKPI9H5crl9QchNMY9+g==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
+    dependencies:
+      eslint: 8.24.0
     dev: true
 
   /eslint-plugin-react/7.31.8_eslint@8.24.0:

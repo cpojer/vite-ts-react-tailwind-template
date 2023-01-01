@@ -6,10 +6,11 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
     'plugin:import/errors',
     'plugin:import/typescript',
+    'plugin:react-hooks/recommended',
     'plugin:react/recommended',
-    'plugin:@typescript-eslint/recommended',
   ],
   overrides: [
     {
@@ -25,7 +26,13 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['import', 'react', '@typescript-eslint', 'typescript-sort-keys'],
+  plugins: [
+    '@typescript-eslint',
+    'import',
+    'react-hooks',
+    'react',
+    'typescript-sort-keys',
+  ],
   rules: {
     '@typescript-eslint/ban-ts-comment': 0,
     '@typescript-eslint/no-empty-function': 0,
