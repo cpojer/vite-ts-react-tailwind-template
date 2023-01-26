@@ -1,3 +1,14 @@
+import { z } from 'zod';
+
+const User = z.object({
+  username: z.string(),
+});
+
+User.parse({ username: 'adamburmister' });
+
+// extract the inferred type
+type User = z.infer<typeof User>;
+
 const Link = (props: JSX.IntrinsicElements['a']) => (
   <a
     className="text-pink-500 underline hover:no-underline dark:text-pink-400"
