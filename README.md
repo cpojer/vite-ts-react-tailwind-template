@@ -29,7 +29,7 @@ _Note: You can install `pnpm` via `homebrew` on macOS: `brew install pnpm`._
 - Use [`npm-run-all`](https://github.com/mysticatea/npm-run-all) to parallelize local test runs.
 - Prettier and eslint have `--cache` flags. Use them!
 - Do not run prettier inside of `eslint`. It commonly takes 50% of the eslint runtime!
-- Automatically sort imports when running prettier/saving the document via [`@trivago/prettier-plugin-sort-imports`](https://github.com/trivago/prettier-plugin-sort-imports).
+- Automatically sort imports when running prettier/saving the document via [`@ianvs/prettier-plugin-sort-imports`](https://github.com/ianvs/prettier-plugin-sort-imports).
 - Use `swc` with `ts-node` for fast node scripts with [ESM](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/). See below ↓
 
 ## Run node scripts with ESM and TypeScript, fast.
