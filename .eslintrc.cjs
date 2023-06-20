@@ -66,7 +66,7 @@ module.exports = {
     'no-irregular-whitespace': 2,
     'no-this-before-super': 2,
     'no-unused-expressions': 2,
-    'no-unused-labels': 1,
+    'no-unused-labels': 2,
     'no-unused-vars': 0,
     'no-var': 2,
     'object-curly-spacing': 0,
