@@ -114,7 +114,7 @@ module.exports = {
       '@typescript-eslint/parser': ['.ts', '.tsx'],
     },
     react: {
-      version: '18.0.0',
+      version: 'detect',
     },
   },
 };
