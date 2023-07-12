@@ -16,6 +16,9 @@ devDependencies:
   '@ianvs/prettier-plugin-sort-imports':
     specifier: ^4.0.2
     version: 4.0.2(prettier@3.0.0)
+  '@nkzw/eslint-config':
+    specifier: ^1.0.0
+    version: 1.0.0(eslint@8.44.0)(typescript@5.1.6)
   '@swc/core':
     specifier: ^1.3.36
     version: 1.3.68
@@ -31,12 +34,6 @@ devDependencies:
   '@types/react-dom':
     specifier: ^18.0.11
     version: 18.2.6
-  '@typescript-eslint/eslint-plugin':
-    specifier: ^6.0.0
-    version: 6.0.0(@typescript-eslint/parser@6.0.0)(eslint@8.44.0)(typescript@5.1.6)
-  '@typescript-eslint/parser':
-    specifier: ^6.0.0
-    version: 6.0.0(eslint@8.44.0)(typescript@5.1.6)
   '@vitejs/plugin-react':
     specifier: ^4.0.0
     version: 4.0.3(vite@4.4.3)
@@ -46,27 +43,6 @@ devDependencies:
   eslint:
     specifier: ^8.34.0
     version: 8.44.0
-  eslint-import-resolver-typescript:
-    specifier: ^3.5.3
-    version: 3.5.5(@typescript-eslint/parser@6.0.0)(eslint-plugin-import@2.27.5)(eslint@8.44.0)
-  eslint-plugin-import:
-    specifier: ^2.27.5
-    version: 2.27.5(@typescript-eslint/parser@6.0.0)(eslint-import-resolver-typescript@3.5.5)(eslint@8.44.0)
-  eslint-plugin-react:
-    specifier: ^7.32.2
-    version: 7.32.2(eslint@8.44.0)
-  eslint-plugin-react-hooks:
-    specifier: ^4.6.0
-    version: 4.6.0(eslint@8.44.0)
-  eslint-plugin-sort-keys-fix:
-    specifier: ^1.1.2
-    version: 1.1.2
-  eslint-plugin-typescript-sort-keys:
-    specifier: ^2.1.0
-    version: 2.3.0(@typescript-eslint/parser@6.0.0)(eslint@8.44.0)(typescript@5.1.6)
-  eslint-plugin-unicorn:
-    specifier: ^47.0.0
-    version: 47.0.0(eslint@8.44.0)
   npm-run-all:
     specifier: ^4.1.5
     version: 4.1.5
@@ -673,6 +649,30 @@ packages:
   /@nicolo-ribaudo/semver-v6@6.3.3:
     resolution: {integrity: sha512-3Yc1fUTs69MG/uZbJlLSI3JISMn2UV2rg+1D/vROUqZyh3l6iYHCs7GMp+M40ZD7yOdDbYjJcU1oTJhrc+dGKg==}
     hasBin: true
+    dev: true
+
+  /@nkzw/eslint-config@1.0.0(eslint@8.44.0)(typescript@5.1.6):
+    resolution: {integrity: sha512-YrlvaF0wJ9xiEt2abcQpkcs4MIHBwDAKfFfBxE7SSqf1LJRF3cfa5uGUG5J9WYKeo7YSnyNZcwZhcAhybBcZcw==}
+    peerDependencies:
+      eslint: '>= 8'
+    dependencies:
+      '@typescript-eslint/eslint-plugin': 6.0.0(@typescript-eslint/parser@6.0.0)(eslint@8.44.0)(typescript@5.1.6)
+      '@typescript-eslint/parser': 6.0.0(eslint@8.44.0)(typescript@5.1.6)
+      eslint: 8.44.0
+      eslint-import-resolver-typescript: 3.5.5(@typescript-eslint/parser@6.0.0)(eslint-plugin-import@2.27.5)(eslint@8.44.0)
+      eslint-plugin-import: 2.27.5(@typescript-eslint/parser@6.0.0)(eslint-import-resolver-typescript@3.5.5)(eslint@8.44.0)
+      eslint-plugin-no-instanceof: 1.0.1
+      eslint-plugin-no-only-tests: 3.1.0
+      eslint-plugin-react: 7.32.2(eslint@8.44.0)
+      eslint-plugin-react-hooks: 4.6.0(eslint@8.44.0)
+      eslint-plugin-sort-keys-fix: 1.1.2
+      eslint-plugin-typescript-sort-keys: 2.3.0(@typescript-eslint/parser@6.0.0)(eslint@8.44.0)(typescript@5.1.6)
+      eslint-plugin-unicorn: 47.0.0(eslint@8.44.0)
+    transitivePeerDependencies:
+      - eslint-import-resolver-node
+      - eslint-import-resolver-webpack
+      - supports-color
+      - typescript
     dev: true
 
   /@nodelib/fs.scandir@2.1.5:
@@ -1865,6 +1865,15 @@ packages:
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
       - supports-color
+    dev: true
+
+  /eslint-plugin-no-instanceof@1.0.1:
+    resolution: {integrity: sha512-zlqQ7EsfzbRO68uI+p8FIE7zYB4njs+nNbkNjSb5QmLi2et67zQLqSeaao5U9SpnlZTTJC87nS2oyHo2ACtajw==}
+    dev: true
+
+  /eslint-plugin-no-only-tests@3.1.0:
+    resolution: {integrity: sha512-Lf4YW/bL6Un1R6A76pRZyE1dl1vr31G/ev8UzIc/geCgFWyrKil8hVjYqWVKGB/UIGmb6Slzs9T0wNezdSVegw==}
+    engines: {node: '>=5.0.0'}
     dev: true
 
   /eslint-plugin-react-hooks@4.6.0(eslint@8.44.0):
