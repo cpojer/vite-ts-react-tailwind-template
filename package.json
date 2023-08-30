@@ -28,15 +28,16 @@
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.21",
     "prettier": "^3.0.0",
-    "prettier-plugin-tailwindcss": "^0.4.1",
+    "prettier-plugin-tailwindcss": "^0.5.3",
     "tailwindcss": "^3.2.7",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.2",
     "vite": "^4.1.4",
-    "vitest": "^0.34.0"
+    "vitest": "^0.34.3"
   },
   "scripts": {
     "build": "vite build",
+    "dev:update-deps": "rm -rf pnpm-lock.yaml node_modules/ **/node_modules && pnpm install",
     "dev": "vite dev",
     "format": "prettier --write .",
     "lint:format": "prettier --cache --check .",
