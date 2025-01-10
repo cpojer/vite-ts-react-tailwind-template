@@ -1,4 +1,6 @@
-const Link = (props: JSX.IntrinsicElements['a']) => (
+import { AnchorHTMLAttributes } from 'react';
+
+const Link = (props: AnchorHTMLAttributes<HTMLAnchorElement>) => (
   <a
     className="text-pink-500 underline hover:no-underline dark:text-pink-400"
     {...props}
