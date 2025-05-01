@@ -7,10 +7,10 @@ Read [the blog post about this template](https://cpojer.net/posts/fastest-fronte
 ## Technologies
 
 - [Vite](https://vitejs.dev/)
-- [React](https://reactjs.org/)
+- [React](https://reactjs.org/) with [React Compiler](https://react.dev/learn/react-compiler) enabled.
 - [TypeScript](https://www.typescriptlang.org)
 - [Tailwind](https://tailwindcss.com/)
-- [pnpm](https://pnpm.io/) (_Optional_)
+- [pnpm](https://pnpm.io/)
 
 ![screenshot of `App.tsx`](./screenshot.png)
 
