@@ -37,7 +37,7 @@
     "vitest": "^3.1.2"
   },
   "scripts": {
-    "preinstall": "command -v git >/dev/null 2>&1 && git config core.hooksPath git-hooks || true",
+    "preinstall": "command -v git >/dev/null 2>&1 && git config core.hooksPath git-hooks || exit 0",
     "build": "vite build",
     "dev:update-deps": "rm -rf pnpm-lock.yaml node_modules/ **/node_modules && pnpm install",
     "dev": "vite dev",
