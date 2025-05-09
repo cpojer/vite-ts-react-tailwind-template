@@ -16,7 +16,7 @@ Read [the blog post about this template](https://cpojer.net/posts/fastest-fronte
 
 ## Setup
 
-- Press the "Use this template" on the top of this repository's GitHub page.
+- Press the "Use this template" button on the top of this repository's GitHub page.
 - Run `pnpm install` (or `npm install` if you don't use `pnpm`).
 - `pnpm dev` for development.
 - Use `pnpm test` to run tests.
